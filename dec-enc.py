@@ -377,7 +377,7 @@ def rail_fence():
         print("Input must be a whole number.")
         return
     else:
-        rfCreateArrayCol = int(rfCreateArrayCol)  # Преобразуем строку в целое число
+        rfCreateArrayCol = int(rfCreateArrayCol)
         if rfCreateArrayCol > len(rfIn):
             print("Number of columns must be not greater than the length of the word itself.")
             return
